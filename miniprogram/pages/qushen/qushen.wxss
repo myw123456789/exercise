@@ -1,0 +1,8 @@
+/* pages/qushen/qushen.wxss */
+.container{
+  width:50%;
+  height:200px
+}
+.bac{
+  background-color: darkkhaki;
+}

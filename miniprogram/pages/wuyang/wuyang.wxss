@@ -1,0 +1,8 @@
+/* pages/wuyang/wuyang.wxss */
+.bac{
+  background-color: rgb(100, 189, 237);
+}
+.container{
+  width:100%;
+  height:200px
+}

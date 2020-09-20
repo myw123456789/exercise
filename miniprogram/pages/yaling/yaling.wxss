@@ -1,0 +1,5 @@
+/* pages/yaling/yaling.wxss */
+.style{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

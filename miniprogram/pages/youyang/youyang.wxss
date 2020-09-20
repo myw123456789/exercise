@@ -1,0 +1,8 @@
+/* pages/youyang/youyang.wxss */
+.background{
+  background-color: rgba(168, 233, 16, 0.933);
+}
+.container{
+  width:100%;
+  height:200px
+}

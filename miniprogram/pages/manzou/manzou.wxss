@@ -1,0 +1,5 @@
+/* pages/manzou/manzou.wxss */
+.style{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

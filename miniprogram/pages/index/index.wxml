@@ -1,0 +1,71 @@
+<view class = 'container'>
+  <view class="main">
+    <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true">
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" width="100%"/>
+            </swiper-item>
+        </block>
+    </swiper>
+    <scroll-view  scroll-x="{{true}}" scroll-left = '150'>
+    <view class="scroll2">
+    <image class="scroll1" src='/images/有氧运动.jpg' bindtap="f1"></image>
+    <image class="scroll1" src="/images/无氧运动.jpg" bindtap="f2"></image>
+    <image class="scroll1" src="/images/屈伸运动.jpg" bindtap="f3"></image>
+    <image class="scroll1" src="/images/登录.jpg" bindtap="f4"></image>
+    </view>
+    </scroll-view>
+  </view>
+ <!-- <form bindsubmit="btnsub">
+  <text>昵称：</text>
+  <input name = 'name' placeholder="请输入昵称"> </input>
+  <text>体重：</text>
+  <input name = 'weight' placeholder="请输入体重(kg)" type = 'number'></input>
+  <text>身高：</text>
+  <input name = 'height' placeholder="请输入身高(cm)" type = 'number'></input>
+  <text>性别：</text>
+  <input name = 'gender' placeholder="请输入性别"></input>
+  <input name = 'age' placeholder="请输入年龄" type = 'number'></input>
+  <input name = 'job' placeholder="请输入职业"></input>
+  <textarea name = "self-introduction" placeholder="请介绍一下自己">
+  </textarea>
+  <button type="primary" form-type="submit">开始制定</button>
+  <button type = 'primary' form-type="reset">重置</button>
+  </form>-->
+</view>
+<view class="newest">
+      <view class="newest-title"><text style="color:black">点击上面四幅图片可查看详情</text></view>
+      <view class="newest-title"><text style="color:black"><text style="font-weight:bold">健身项目</text></text></view>
+      <view class="newest-box">
+          <view class="newest-list">
+                <!--<navigator url="details/details">-->
+                    <image src="/images/跑步.jpg" bindtap = 'run'></image>
+                    <view class="newest-text"><text>跑步</text></view>
+                <!--</navigator>-->
+          </view>
+          <view class="newest-list">
+                <!--<navigator url="details/details">-->
+                    <image src="/images/哑铃.jpg" bindtap="yaling"></image>
+                    <view class="newest-text"><text>举哑铃</text></view>
+                <!--</navigator>-->
+          </view>
+          <view class="newest-list">
+                <!--<navigator url="details/details">-->
+                    <image src="/images/仰卧起坐.jpg" bindtap = 'yangwo'></image>
+                    <view class="newest-text"><text>仰卧起坐</text></view>
+                <!--</navigator>-->
+          </view>
+          <view class="newest-list">
+                    <image src="/images/跳绳.jpg" bindtap="tiaosheng"></image>
+                    <view class="newest-text"><text>跳绳</text></view>
+          </view>
+          <view class="newest-list">
+                <!--<navigator url="details/details">-->
+                    <image src="/images/慢走.gif" bindtap="manzou"></image>
+                    <view class="newest-text"><text>慢走</text></view>
+                <!--</navigator>-->
+          </view>
+      </view>
+ 
+</view>
+

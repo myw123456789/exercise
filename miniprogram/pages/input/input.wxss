@@ -1,0 +1,85 @@
+/* pages/input/input.wxss */
+.text1{height: 20rpx;
+  width: 20rpx;
+  padding: 20rpx;
+  align-items: center;
+}
+.mine-cell {
+  padding: 12px 15px;
+  
+  align-items: center;
+  line-height: 1.4;
+  background-color: #fff;
+  font-size: 14px;
+  border: solid 1px silver;
+}
+.weui-search-bar {
+  position: relative;
+  padding: 8px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+  
+  
+}
+.weui-icon-search_in-box {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+.weui-search-bar__form {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+          flex: auto;
+  border-radius: 5px;
+  background:#fff;
+  border: 1rpx solid #E6E6EA;
+}
+.fp{
+  background-color: #EFEFF4;
+  height: 100%;
+}
+
+.im{height: 150px;
+  align-items: center;
+   }
+.weui-search-bar__box {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.weui-search-bar__input {
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+}
+.weui-search-bar__cancel-btn {
+  margin-left: 10px;
+  line-height: 28px;
+  color:#000
+  
+}
+.food__action {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  right: 20px;
+
+  background-color: #008987;
+  color: #fff;
+}
+
+.food__action--hover {
+  background-color: #005E5D;
+  color: #fff;
+}
+.radio{
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

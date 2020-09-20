@@ -1,0 +1,17 @@
+<!--pages/qushen/qushen.wxml-->
+<view class='bac'>
+<text><text style="font-weight:bold">伸展运动</text>是一种身体保健运动。有助于全身淋巴腺的畅通及关节的放松，可以增强身体的柔软度，放松肌肉，减低运动伤害及疲劳，若加上按摩则可增强血液的新陈代谢。伸展运动不像器械训练容易受伤。</text>
+<text><text style="font-weight:bold">\n\n\n伸展也有助长期坐姿引起的疲乏</text>
+1.增强身体活动功能
+2.减少肌肉受伤机会
+3.增进关节的血液及养分供应
+4.减少肌肉酸痛
+5.预防下背痛
+<text style="font-weight:bold">\n\n伸展运动种类:</text>
+1.静态伸展-缓慢伸展至动作末端并保持30秒
+2.弹振式伸展-主动肌参与并且在动作末端进行弹振活动
+3.动态伸展-与专项运动相关的柔韧性</text>
+<image src="/images/伸展.jpg" class = 'container'></image>
+<image src="/images/伸展3.jpg" class = 'container'></image>
+</view>
+

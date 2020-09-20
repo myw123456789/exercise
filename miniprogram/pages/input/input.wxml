@@ -1,0 +1,71 @@
+<!--pages/input/input.wxml-->
+ <view class="mine-cell">
+ <form bindsubmit="btnsub">
+  <view>
+     <view class="fp">
+      
+        
+          
+          <view class="weui-search-bar">
+            <view class="weui-search-bar__cancel-btn">身高：</view>
+            <view class="weui-search-bar__form">
+            
+                <view class="weui-search-bar__box">
+                  <icon class="weui-icon-search_in-box" type="info_circle" size="18"></icon>
+                    <input name = 'height' bindinput="inputheight" type="text" class="weui-search-bar__input" placeholder="请输入您的身高"/>
+                </view>
+            
+           
+            
+        </view>
+    </view>
+    <view class="weui-search-bar">
+            <view class="weui-search-bar__cancel-btn">体重：</view>
+            <view class="weui-search-bar__form">
+            
+                <view class="weui-search-bar__box">
+                  <icon class="weui-icon-search_in-box" type="info_circle" size="18"></icon>
+                    <input name = 'weight' bindinput="inputweight" type="text" class="weui-search-bar__input" placeholder="请输入您的体重"/>
+                </view>
+            
+           
+            
+        </view>
+    </view>
+    <view class="weui-search-bar">
+            <view class="weui-search-bar__cancel-btn">年龄：</view>
+            <view class="weui-search-bar__form">
+            
+                <view class="weui-search-bar__box">
+                  <icon class="weui-icon-search_in-box" type="info_circle" size="18"></icon>
+                    <input name = 'age' bindinput="inputage" type="text" class="weui-search-bar__input" placeholder="请输入您的年龄"/>
+                </view>
+            
+           
+            
+        </view>
+    </view>
+    <view class="radio">您的锻炼目的是：</view>
+    <view class="radio">
+  <radio-group class="radio-group" bindchange="radioChange">
+    <label class="radio" wx:for="{{items}}">
+      <view class="tui-menu-list"><radio color="#007aff" value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}</view>
+    </label>
+  </radio-group>
+  <view >
+   我们将为您制定{{radioStr}}的训练计划,要记得坚持锻炼！
+   
+  </view>
+  <view wx:if="{{radioStr=='减肥'}}"> <image class="im" mode="aspectFit" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599374286108&di=90403e7ea9624887c5851f09c850053f&imgtype=0&src=http%3A%2F%2Fwww.ddmeishi.com%2Fuploads%2Fallimg%2F170905%2F8-1FZ5164156.jpg"></image></view>
+  <view wx:if="{{radioStr=='增肌'}}"><image class="im" mode="aspectFit" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599382581159&di=81932ed567b4029a454c690c8791e8a5&imgtype=0&src=http%3A%2F%2F07imgmini.eastday.com%2Fmobile%2F20181011%2F20181011001907_37cc32e872881d596e91d78aaafc3e74_1.jpeg"></image></view>
+</view>
+</view>
+
+  
+</view><view>
+<button class="food__action" hover-class="food__action--hover" form-type="submit">
+          提交
+        </button></view>
+</form>
+</view>
+
